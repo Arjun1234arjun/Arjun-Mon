@@ -4,25 +4,6 @@ Its_me_Amal
 <div align="center">
   <img src=https://www.linkpicture.com/q/IMG-20210629-WA0181.jpg>
 
-  <p 
-       | © |
-        Reserved |
-    <br> 
-</p>
-<div align="center">
-instagram 
-  <div align="center">
-    
-  [![Its_me_Amal](https://www.linkpicture.com/q/images-12_42.jpeg?size="20")](https://instagram.com/pavam_n_a_n)
-
-
-
-  <p align="center">
-  <a href="httsp://github.com/cyberchekuthan/Amalser_v1">
-    <img src="https://img.shields.io/github/repo-size/farhan-dqz/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
-<p align="center">
-
-
 ## 📢 Guide
 Click WA logo to Join Support Group 👇
     <br>
