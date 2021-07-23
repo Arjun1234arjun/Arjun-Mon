@@ -76,9 +76,10 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![saidali](https://i.imgur.com/MZDCN2M.jpeg?size=100)](https://github.com/saidalisaid2) |  
+  [![Amalser](<img src=https://www.linkpicture.com/q/IMG-20210629-WA0181.jpg>
+ )](https://github.com/Amalser_v1) |  
 ----|
-[ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://github.com/saidalisaid2)  |
+[ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://github.com/Amalser_v1)  |
 Base, Bug Fixes, Modules | 
   
     
