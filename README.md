@@ -1,5 +1,6 @@
 <div align="center">
-ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ 
+Its_me_Amal
+
 <div align="center">
   <img src=https://www.linkpicture.com/q/IMG-20210629-WA0181.jpg>
 
@@ -21,20 +22,15 @@ Project created by <a href="https://github.com/saidalisaid2">saidali</a> to make
 instagram 
   <div align="center">
     
-  [![ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://www.linkpicture.com/q/images-12_42.jpeg?size="20")](https://instagram.com/pavam_n_a_n)
+  [![Its_me_Amal](https://www.linkpicture.com/q/images-12_42.jpeg?size="20")](https://instagram.com/pavam_n_a_n)
 
 
 
   <p align="center">
-  <a href="httsp://github.com/saidalisaid2/LiyaMol">
+  <a href="httsp://github.com/cyberchekuthan/Amalser_v1">
     <img src="https://img.shields.io/github/repo-size/farhan-dqz/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/saidalisaid2/followers"><img title="Followers" src="https://img.shields.io/github/followers/saidalisaid2?color=blue&style=flat-square"></a>
-<a href="https://github.com/saidalisaid2/LiyaMol/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/saidalisaid2/LiyaMol/network/members"><img title="Forks" src="https://img.shields.io/github/forks/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/saidalisaid2/LiyaMol/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/farhan-dqz/JulieMwol?label=Watchers&color=blue&style=flat-square"></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
-</p>
+
 
 ## 📢 Guide
 Click WA logo to Join Support Group 👇
@@ -62,7 +58,7 @@ If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Te
 bash <(curl -L https://t.ly/tHxh)
 ``` 
   
-### ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ 
+### Its_me_Amal
 
 
 ### ⚠️ Warning! 
@@ -77,9 +73,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
   <div align="center">
     
   [![Amalser](<img src=https://www.linkpicture.com/q/IMG-20210629-WA0181.jpg>
- )](https://github.com/Amalser_v1) |  
+ https://github.com/Amalser_v1 |  
 ----|
-[ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://github.com/Amalser_v1)  |
+[Its_me_Amal](https://github.com/Amalser_v1)  |
 Base, Bug Fixes, Modules | 
   
     
