@@ -20,8 +20,9 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━💘Amal ser💘━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Amal 𝐛𝐨𝐭.
-            *Amalser*
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Amalser 𝐛𝐨𝐭.
+  
+*http://ẉa.me/➳Amal*
 
 ■□■□■□■□■□■□■□■□■□■□
 💘 *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* 💘
