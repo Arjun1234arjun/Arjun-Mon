@@ -11,7 +11,7 @@ const Lang = Language.getString('whois'); // Language Support
 
 if (CON.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'whois', fromMe: true, desc: Lang.PL_DESC }, async (message, match) => { 
+    Asena.addCommand({ pattern: 'bot', fromMe: true, desc: Lang.PL_DESC }, async (message, match) => { 
 
         if (message.jid.includes('-')) {
             var json = await message.client.groupMetadataMinimal(message.jid) 
@@ -48,7 +48,7 @@ if (CON.WORKTYPE == 'private') {
 }
 else if (CON.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'whois', fromMe: false, desc: Lang.PL_DESC }, async (message, match) => { 
+    Asena.addCommand({ pattern: 'bot', fromMe: false, desc: Lang.PL_DESC }, async (message, match) => { 
 
         if (message.jid.includes('-')) {
             var json = await message.client.groupMetadataMinimal(message.jid) 
@@ -57,7 +57,7 @@ else if (CON.WORKTYPE == 'public') {
 
             var nwjson = await message.client.groupMetadata(message.jid) 
 
-            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
+            const msg = `*its_me_Amalser* \n` `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
 
             var ppUrl = await message.client.getProfilePicture(message.jid) 
 
