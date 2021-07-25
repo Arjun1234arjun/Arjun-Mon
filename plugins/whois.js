@@ -57,7 +57,7 @@ else if (CON.WORKTYPE == 'public') {
 
             var nwjson = await message.client.groupMetadata(message.jid) 
 
-            const msg = `*its_me_Amalser* \n` `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
+            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
 
             var ppUrl = await message.client.getProfilePicture(message.jid) 
 
