@@ -187,7 +187,7 @@
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naran```",
             "NO_RESULT": "*I couldn't find anything :(*",
             "DOWNLOADING_SONG": "\n*Searching 🥰*\n",
-            "UPLOADING_SONG": "\n*0:35 ━❍──────── -5:32*\n*↻  ⊲    Ⅱ    ⊳  ↺*\n*VOLUME: ▁▂▃▄▅▆▇ 100%*\n*feel the music 🎧*\n",
+            "UPLOADING_SONG": "\n*0:35 ━❍──────── -5:32*\n*↻      ⊲      Ⅱ      ⊳       ↺*\n*VOLUME: ▁▂▃▄▅▆▇ 100%*\n*feel the music 🎧*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link! Allakkil kalanjitt ponam*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
             "DOWNLOADING_VIDEO": "```Downloading... Please wait few seconds```",
