@@ -1,6 +1,3 @@
-
-
-
 /* Codded by @Amalser
 */
 
