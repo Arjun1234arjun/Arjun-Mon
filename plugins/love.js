@@ -1,6 +1,3 @@
-/* Codded by @Amalser
-*/
-
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
