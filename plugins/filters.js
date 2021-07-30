@@ -12,6 +12,7 @@ const fs = require('fs')
 const Asena = require('../events');
 const {MessageType, Mimetype } = require('@adiwajshing/baileys');
 const FilterDb = require('./sql/filters');
+const jid = Config.DISBGM != false ? Config.DISBGM.split(',') : [];
 const Config = require('../config');
 
 const Language = require('../language');
