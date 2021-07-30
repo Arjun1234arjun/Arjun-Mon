@@ -12,7 +12,6 @@ const fs = require('fs')
 const Asena = require('../events');
 const {MessageType, Mimetype } = require('@adiwajshing/baileys');
 const FilterDb = require('./sql/filters');
-const jid = Config.DISBGM != false ? Config.DISBGM.split(',') : [];
 const Config = require('../config');
 
 const Language = require('../language');
@@ -113,13 +112,10 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
     }
 }));
 
-Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
-    if(Config.BGMFILTER){
-    let banned = jid.find( Jid => Jid === message.jid);
-    if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '919895828468@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
-    }
+ena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
+        if (!!message.mention && message.mention[0] == '919895828468@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/Mention.webp'), MessageType.audio, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
+        }
 const array = ['love','list','machu','menu','mute','nee','onn','oo','pa','so','unmute','wait','adi','army','bye','chaya','edit','ip','kayari','la','mari','money','monu','nallath','night','nyt','on','patti','po','poth','sir','Amal','a','Hii','ee','Da','food','Hlo','para','love u','set','sed','jada','amal','Hi','sad','don','Loki','bye']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
@@ -129,14 +125,14 @@ if(pattern.test(message.message)){
 });
 }
 
-var filtreler = await FilterDb.getFilter(message.jid);
-if (!filtreler) return; 
-filtreler.map(
-    async (filter) => {
-        pattern = new RegExp(filter.dataValues.regex ? filter.dataValues.pattern : ('\\b(' + filter.dataValues.pattern + ')\\b'), 'gm');
-        if (pattern.test(message.message)) {
-            await message.client.sendMessage(message.jid,filter.dataValues.text, MessageType.text, {quoted: message.data});
+    var filtreler = await FilterDb.getFilter(message.jid);
+    if (!filtreler) return; 
+    filtreler.map(
+        async (filter) => {
+            pattern = new RegExp(filter.dataValues.regex ? filter.dataValues.pattern : ('\\b(' + filter.dataValues.pattern + ')\\b'), 'gm');
+            if (pattern.test(message.message)) {
+                await message.client.sendMessage(message.jid,filter.dataValues.text, MessageType.text, {quoted: message.data});
+            }
         }
-    }
-);
+    );
 }));
