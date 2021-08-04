@@ -4,8 +4,8 @@
     "logo": "https://www.linkpicture.com/q/IMG-20210629-WA0181.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/cyberchekuthan/Amalser_v1",
-    "website":   "https://t.me/phaticusthiccy",
-    "success_url": "https://t.me/AsenaSupport",
+    "website":   "maintainence",
+    "success_url": "maintainence",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
