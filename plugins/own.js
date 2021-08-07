@@ -6,7 +6,7 @@ const con = require('../config');
 const ENZAR = "Owner list. [ ✅️ Official External Plugin ]"
 
 // Sentences
-const ENSEN = "🍀 ```Amalser Loading🎯``` 💘"
+const ENSEN = "```Amalser Loading🎯``` 💘"
 
 // Results
 const ENSON = "```Owner List:``` "
@@ -38,7 +38,7 @@ if (con.LANG === 'EN' || 'az') {
     }
     else if (con.WORKTYPE === 'public') {
 
-        Asena.addCommand({pattern: 'roll', fromMe: false, desc: ENZAR}, (async (message, match) => {
+        Asena.addCommand({pattern: 'own', fromMe: false, desc: ENZAR}, (async (message, match) => {
 
             await message.client.sendMessage(message.jid, ENSEN, MessageType.text);
             await new Promise(r => setTimeout(r, 4000));
