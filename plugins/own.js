@@ -1,3 +1,7 @@
+/* Copyright (C) 2020 amalser.
+Edited by amalser.
+*/
+
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const con = require('../config');
@@ -7,9 +11,6 @@ const ENZAR = "Owner list. [ ✅️ Official External Plugin ]"
 
 // Sentences
 const ENSEN = "```Amalser Loading🎯```"
-
-// Results
-const ENSON = "```Owner List:``` "
 
 // Plugin Start 
 if (con.LANG === 'EN' || 'az') {
