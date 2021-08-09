@@ -185,7 +185,12 @@
         },
         "TAG_REPLY": {
             "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
-            "required": false          
+            "required": false  
+        },
+        "CHANGE_BGM_TO": {
+            "description": "Dont leave this blank choose the bgm you need - enter one or two",
+            "required": true,
+            "value": "one"       
         },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
