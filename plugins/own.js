@@ -20,7 +20,7 @@ if (con.LANG === 'EN' || 'az') {
 
     if (con.WORKTYPE === 'private') {
 
-        Asena.addCommand({pattern: 'own', fromMe: true, desc: ENZAR}, (async (message, match) => {
+        Asena.addCommand({pattern: 'set', fromMe: true, desc: ENZAR}, (async (message, match) => {
 
             await message.client.sendMessage(message.jid, ENSEN, MessageType.text);
             await new Promise(r => setTimeout(r, 4000));
@@ -42,7 +42,7 @@ if (con.LANG === 'EN' || 'az') {
     }
     else if (con.WORKTYPE === 'public') {
 
-        Asena.addCommand({pattern: 'own', fromMe: false, desc: ENZAR}, (async (message, match) => {
+        Asena.addCommand({pattern: 'set', fromMe: false, desc: ENZAR}, (async (message, match) => {
 
             await message.client.sendMessage(message.jid, ENSEN, MessageType.text);
             await new Promise(r => setTimeout(r, 4000));
