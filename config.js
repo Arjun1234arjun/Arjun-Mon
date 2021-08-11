@@ -53,7 +53,7 @@ module.exports = {
     TAGPLK: process.env.TAG_HEADER === undefined ? 'Amal' : process.env.TAG_HEADER,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    MAHN: process.env.MAAN === undefined ? '919895828468,0' : process.env.MAAN,
+    MAHN: process.env.MAAN === undefined ? '919072790587,0' : process.env.MAAN,
     BRANCH: 'master',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
