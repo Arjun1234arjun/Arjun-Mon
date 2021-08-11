@@ -10,7 +10,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     var r_text = new Array ();
     
     
-    r_text[0] = "https://imgur.com/gallery/H4WSHQA.jpg";
+    r_text[0] = "";
   
     
     
