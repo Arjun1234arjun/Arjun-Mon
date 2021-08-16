@@ -74,7 +74,7 @@
         "heroku": {
             "RESTART_DESC": "\nRestart Amalser\n",
             "RESTART_MSG": "```punararambikkunu... Please wait```",
-            "SHUTDOWN_DESC": "\nShutdown LiyaMol\n",
+            "SHUTDOWN_DESC": "\nShutdown Amalser\n",
             "SHUTDOWN_MSG": "```adach poottunnu ⛔```",
             "DYNO_DESC": "heroku dyno kanaan ",
             "DYNO_TOTAL": "```motham Quota```",
