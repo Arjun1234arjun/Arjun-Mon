@@ -19,11 +19,11 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
     var THERI_off = ''
    
     if (config.LANG == 'EN') {
-        l_dsc = 'chilla theri vilichaal spot kick. -bot owner command'
+        l_dsc = 'Dont call Badwords spot kick. -bot owner command'
         alr_on = 'Antilink is already open!'
         alr_off = 'Antilink is currently closed!'
-        THERI_on = '*eni chilla theri vilcha kick akkum*'
-        THERI_off = '*eni enth theri vennelum vili*'
+        THERI_on = '*Antibadword on*\n\n*Dont call Badwords and Dont share any other Group links i will kick out from the group⚠️*'
+        THERI_off = '*Antibadword off*'
     }
    
     if (config.LANG == 'HI') {
@@ -41,15 +41,15 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         THERI_off = 'bgm option turned off'
     }
    
-    Asena.addCommand({pattern: 'theri ?(.*)', fromMe: true, desc: l_dsc, usage: '.theri no / yes' }, (async (message, match) => {
-        if (match[1] == 'yes') {
+    Asena.addCommand({pattern: 'antibadword ?(.*)', fromMe: true, desc: l_dsc, usage: '.Antibadword on / off' }, (async (message, match) => {
+        if (match[1] == 'off') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
                         ['THERI_KICK']: 'false'
                     } 
                 });
                 await message.sendMessage(THERI_off)
-        } else if (match[1] == 'no') {
+        } else if (match[1] == 'on') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
                         ['THERI_KICK']: 'true'
