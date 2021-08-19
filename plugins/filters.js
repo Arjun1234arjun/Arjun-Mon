@@ -198,7 +198,7 @@ filtreler.map(
 );
 }));
 
-   async function checkUsAdmin(message, user = message.data.participant) {
+    async function checkUsAdmin(message, user = message.data.participant) {
     var grup = await message.client.groupMetadata(message.jid);
     var sonuc = grup['participants'].map((member) => {     
         if (member.jid.split("@")[0] == user.split("@")[0] && member.isAdmin) return true; else; return false;
