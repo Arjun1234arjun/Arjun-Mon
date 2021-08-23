@@ -36,6 +36,7 @@
             "ALREADY_PROMOTED": "```i am admin in this group```",
             "PROMOTED": "```admin role was given!```",
             "PROMOTE_DESC": "Makes any person an admin.",
+            "PLKADMIN": ".report you are not admin \n\n 🇩​🇴​🇳​🇹​ 🇹​🇷​🇾​ 🇦​🇬​🇦​🇮​🇳​, 🇮​🇫​ 🇾​🇴​🇺​ 🇹​🇷​🇾​ 🇾​🇴​🇺​ 🇼​🇮​🇱​🇱​ 🇧​🇪​ 🇷​🇪​🇲​🇴​🇻​🇪​🇩​ 🇧​🇾​ 🇦​🇩​🇲​🇮​🇳​🇸​",
             "DEMOTE_DESC": "Takes the authority of any admin.",
             "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
             "DEMOTED": "```, has been demoted!```",
@@ -214,7 +215,17 @@
         },
         "tagall": {
             "TAGALL_DESC": "Tags everyone in the group.",
-            "ADMİN": "*I am not admin in this group!athu kond ellarem mention akkan enikk pattilla*"
+            "ADMİN": "*I am not admin in this group!*",
+            "SCAN": "Checks whether the entered number is registered on WhatApp.",
+            "NO": "*Please Enter Any Phone Number!*\n*Example:* ```.scan 90xxxx```",
+            "SUC": "*Numbered Person Uses WhatsApp! ✅*",
+            "UNSUC": "*Numbered Person Does Not Use WhatsApp! ❌*",
+            "PLKADMIN": ".report you are not admin \n\n 🇩​🇴​🇳​🇹​ 🇹​🇷​🇾​ 🇦​🇬​🇦​🇮​🇳​, 🇮​🇫​ 🇾​🇴​🇺​ 🇹​🇷​🇾​ 🇾​🇴​🇺​ 🇼​🇮​🇱​🇱​ 🇧​🇪​ 🇷​🇪​🇲​🇴​🇻​🇪​🇩​ 🇧​🇾​ 🇦​🇩​🇲​🇮​🇳​🇸​",
+            "TAGADMİN": "Tags group admins.",
+            "REPORT": "Sends reports to group admins.",
+            "USER": "=== ```Report``` ===\n\n*User:* ",
+            "REASON": "\n*Reason:* ",
+            "REPLY": "*Please Respond to User's Message to Report!*"
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
