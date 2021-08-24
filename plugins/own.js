@@ -7,7 +7,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const con = require('../config');
 
 // Descriptions
-const ENZAR = "Owner list. [ ✅️ Official External Plugin ]"
+const ENZAR = "Owner list. [ ✅️ Official External Plugin Made by Amalser ]"
 
 // Sentences
 const ENSEN = "```Amalser Loading🎯```"
@@ -20,7 +20,7 @@ if (con.LANG === 'EN' || 'az') {
 
     if (con.WORKTYPE === 'private') {
 
-        Asena.addCommand({pattern: 'set', fromMe: true, desc: ENZAR}, (async (message, match) => {
+        Asena.addCommand({pattern: 'setting', fromMe: true, desc: ENZAR}, (async (message, match) => {
 
             await message.client.sendMessage(message.jid, ENSEN, MessageType.text);
             await new Promise(r => setTimeout(r, 4000));
@@ -32,7 +32,7 @@ if (con.LANG === 'EN' || 'az') {
             r_text[2] = "*HOW TO USE HEROKU COMMAND IN GROUP*\n*➣ setvar BOT_NAME: [💘Amalser💘]*\n*➣ setvar WORK_TYPE:public*\n*➣ setvar SUDO:91xxxxxxxxxx,0,91xxxxxxxxxx*\n*➣ setvar LANGUAGE:en*";
             r_text[3] = "setvar BOT_NAME:[💘Amalser💘]";
             r_text[4] = "antilink on";
-            r_text[5] = "*aennum sneham mathram😊*";
+            r_text[5] = "*https://youtu.be/VR_ppqEl2q8*";
 
             var i = Math.floor(6*Math.random())
 
@@ -42,7 +42,7 @@ if (con.LANG === 'EN' || 'az') {
     }
     else if (con.WORKTYPE === 'public') {
 
-        Asena.addCommand({pattern: 'set', fromMe: false, desc: ENZAR}, (async (message, match) => {
+        Asena.addCommand({pattern: 'setting', fromMe: false, desc: ENZAR}, (async (message, match) => {
 
             await message.client.sendMessage(message.jid, ENSEN, MessageType.text);
             await new Promise(r => setTimeout(r, 4000));
@@ -54,7 +54,7 @@ if (con.LANG === 'EN' || 'az') {
             r_text[2] = "*HOW TO USE HEROKU COMMAND IN GROUP*\n*➣ setvar BOT_NAME: [💘Amalser💘]*\n*➣ setvar WORK_TYPE:public*\n*➣ setvar SUDO:91xxxxxxxxxx,0,91xxxxxxxxxx*\n*➣ setvar LANGUAGE:en*";
             r_text[3] = ".setvar BOT_NAME:[💘Amalser💘]";
             r_text[4] = ".antilink on";
-            r_text[5] = "*aennum sneham mathram😊*";
+            r_text[5] = "*https://youtu.be/VR_ppqEl2q8*";
 
 
             var i = Math.floor(6*Math.random())
