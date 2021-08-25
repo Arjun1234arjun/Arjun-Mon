@@ -37,9 +37,9 @@ Asena.addCommand({ pattern: 'status ?(.*)', fromMe: false, desc: "Shows movie in
 	const json = JSON.parse(response.body);
 	if (json.Response != 'True') return await message.client.sendMessage(message.jid, '*Not found.*', MessageType.text, { quoted: message.data });
 	let msg = '```';
-	msg += 'Title      : ' + json.Title + '\n\n*Download Your Favoriate Status Videos*';
+	msg += 'Title      : *Download Your Favoriate Status Videos*\n\n';
 	msg += 'Year       : ' + json.Year + '\n\n';
 	msg += 'Actors     : ' + json.Actors + '\n\n';
-        msg += 'link       : ' + json.link + '\n\n*https://t.me/malayalam_rockers_off*';
+        msg += 'link       : *https://t.me/malayalam_rockers_off*';
 	await message.client.sendMessage(message.jid, msg, MessageType.text, { quoted: message.data });
 }));
