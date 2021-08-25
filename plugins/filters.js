@@ -124,7 +124,7 @@ const array = ['ko','ma','od','sha','ya','an','apo','bomb','ee','k','list','mach
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, {contextInfo: { forwardingScore: 10, isForwarded: true }, mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
 }
 });
     }
@@ -153,7 +153,7 @@ const array = ['ho','she','ra','mu','hot','ta','Cr7','uyir','power','va','wow','
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./upload/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./upload/' + a + '.mp3'), MessageType.audio, {contextInfo: { forwardingScore: 10, isForwarded: true }, mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
 }
 });
     }
@@ -181,7 +181,7 @@ const array = ['love','list','machu','menu','mute','onn','oo','so','unmute','wai
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-   await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted: message.data, ptt: false})
+   await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp,contextInfo: { forwardingScore: 10, isForwarded: true }, quoted: message.data, ptt: false})
 }
 });
 }
