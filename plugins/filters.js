@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 farhan-dqz.
 re codded by Amal
-Amalser_v1
+Amalser_v1 
 */
 const fs = require('fs')
 const Asena = require('../events');
