@@ -71,7 +71,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
          let regex8 = new RegExp('send')
          let regex9 = new RegExp('Di')
          let regex10 = new RegExp('bye')
-         let regex11 = new RegExp('Amal Supporters')
+         let regex11 = new RegExp('Support')
          if (regex1.test(message.message)) {              
              await message.client.sendMessage(message.jid,'to get all commands type .help', MessageType.text, {quoted: message.data })
          } 
@@ -103,7 +103,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
     await message.client.sendMessage(message.jid,'```oh, ninnod arenkilm ivde nikkan paranjo..poo mister```', MessageType.text, {quoted: message.data })
          }
          else if (regex11.test(message.message)) {
-    await message.client.sendMessage(message.jid,'```Farhan ❤️ Afnan ❤️```', MessageType.text, {quoted: message.data })
+    await message.client.sendMessage(message.jid,'```Farhan ❤️ Afnan ❤️ Adhithari ❤️```', MessageType.text, {quoted: message.data })
          }      
      
  }));
