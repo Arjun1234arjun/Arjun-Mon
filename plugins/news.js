@@ -72,6 +72,13 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
          let regex9 = new RegExp('Di')
          let regex10 = new RegExp('bye')
          let regex11 = new RegExp('Support')
+         let regex12 = new RegExp('Myre')
+         let regex13 = new RegExp('myre')
+         let regex14 = new RegExp('Fuck')
+         let regex15 = new RegExp('fuck')
+         let regex16 = new RegExp('Sex')
+         let regex17 = new RegExp('who are you')
+         let regex18 = new RegExp('spam')
          if (regex1.test(message.message)) {              
              await message.client.sendMessage(message.jid,'to get all commands type .help', MessageType.text, {quoted: message.data })
          } 
@@ -88,7 +95,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
            await message.client.sendMessage(message.jid,'i know him he is my creator', MessageType.text, {quoted: message.data })
          }
           else if (regex6.test(message.message)) {
-            await message.client.sendMessage(message.jid,'\n`Amalser v2 ❣️` \n*github.com/cyberchekuthan/Amalser_v1*', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'\n*Amalser v2 ❣️*\n*github.com/cyberchekuthan/Amalser_v1*', MessageType.text, {quoted: message.data })
          }
           else if (regex7.test(message.message)) {
             await message.client.sendMessage(message.jid,'```I am Amalser.```', MessageType.text, {quoted: message.data })
@@ -97,13 +104,34 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
             await message.client.sendMessage(message.jid,'what', MessageType.text, {quoted: message.data })
          }
           else if (regex9.test(message.message)) {
-    await message.client.sendMessage(message.jid,'enthada kutta', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'enthada kutta', MessageType.text, {quoted: message.data })
          }
          else if (regex10.test(message.message)) {
-    await message.client.sendMessage(message.jid,'```oh, ninnod arenkilm ivde nikkan paranjo..poo mister```', MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,'```oh, ninnod arenkilm ivde nikkan paranjo..poo mister```', MessageType.text, {quoted: message.data })
          }
          else if (regex11.test(message.message)) {
-    await message.client.sendMessage(message.jid,'```Farhan ❤️ Afnan ❤️ Adhithari ❤️```', MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,'```Farhan ❤️ Afnan ❤️ Adhithari ❤️```', MessageType.text, {quoted: message.data })
+         }
+         else if (regex12.test(message.message)) {
+           await message.client.sendMessage(message.jid,'```Your Father man stupid country fellow🤙```', MessageType.text, {quoted: message.data })
          }      
-     
+          else if (regex13.test(message.message)) {
+            await message.client.sendMessage(message.jid,'```I the name of father get lost man😏 You are a kundan```', MessageType.text, {quoted: message.data })
+         }
+          else if (regex14.test(message.message)) {
+            await message.client.sendMessage(message.jid,'```I then you are gay am i correct 😂not this is the place to call that```', MessageType.text, {quoted: message.data })
+         }
+          else if (regex15.test(message.message)) {
+            await message.client.sendMessage(message.jid,'```you want sex then call call girl baby not here sorry```', MessageType.text, {quoted: message.data })
+         }
+         else if (regex16.test(message.message)) {
+           await message.client.sendMessage(message.jid,'```Go away Gay man🏃‍♂️this is not fucking group```', MessageType.text, {quoted: message.data })
+         }
+         else if (regex17.test(message.message)) {
+           await message.client.sendMessage(message.jid,'```I am nagavalli season 2😂 podaa poo poyi kala parikan nokk```', MessageType.text, {quoted: message.data })
+         }
+         else if (regex18.test(message.message)) {
+           await message.client.sendMessage(message.jid,'*Dont spam ✅️*\n*Warning⚠️*', MessageType.text, {quoted: message.data })
+         }
+       
  }));
