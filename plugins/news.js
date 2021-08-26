@@ -77,7 +77,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
          let regex14 = new RegExp('Fuck')
          let regex15 = new RegExp('fuck')
          let regex16 = new RegExp('Sex')
-         let regex17 = new RegExp('who are you')
+         let regex17 = new RegExp('version')
          let regex18 = new RegExp('spam')
          if (regex1.test(message.message)) {              
              await message.client.sendMessage(message.jid,'to get all commands type .help', MessageType.text, {quoted: message.data })
@@ -119,7 +119,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
             await message.client.sendMessage(message.jid,'```I the name of father get lost man😏 You are a kundan```', MessageType.text, {quoted: message.data })
          }
           else if (regex14.test(message.message)) {
-            await message.client.sendMessage(message.jid,'```I then you are gay am i correct 😂not this is the place to call that```', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'```I think you are gay am i correct 😂not this is the place to call that```', MessageType.text, {quoted: message.data })
          }
           else if (regex15.test(message.message)) {
             await message.client.sendMessage(message.jid,'```you want sex then call call girl baby not here sorry```', MessageType.text, {quoted: message.data })
@@ -131,7 +131,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
            await message.client.sendMessage(message.jid,'```I am nagavalli season 2😂 podaa poo poyi kala parikan nokk```', MessageType.text, {quoted: message.data })
          }
          else if (regex18.test(message.message)) {
-           await message.client.sendMessage(message.jid,'*Dont spam ✅️*\n*Warning⚠️*', MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,'*Dont spam ✅️*\n*Warning ⚠️*', MessageType.text, {quoted: message.data })
          }
        
  }));
