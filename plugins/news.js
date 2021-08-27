@@ -95,7 +95,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
            await message.client.sendMessage(message.jid,'i know him he is my creator', MessageType.text, {quoted: message.data })
          }
           else if (regex6.test(message.message)) {
-            await message.client.sendMessage(message.jid,'\n*Amalser v2 ❣️*\n*github.com/cyberchekuthan/Amalser_v1*', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'\n*Amalser v1 ❣️*\n*github.com/cyberchekuthan/Amalser_v1*', MessageType.text, {quoted: message.data })
          }
           else if (regex7.test(message.message)) {
             await message.client.sendMessage(message.jid,'```I am Amalser.```', MessageType.text, {quoted: message.data })
