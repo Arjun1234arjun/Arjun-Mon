@@ -124,7 +124,7 @@ const array = ['ya','apo','bomb','ee','list','machu','menu','mute','nee','onn','
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, {contextInfo: { forwardingScore: 10, isAmalser: true }, mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, {contextInfo: { forwardingScore: 10, isForwarded: true }, mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
 }
 });
     }
@@ -153,7 +153,7 @@ const array = ['ho','she','ra','mu','hot','ta','Cr7','uyir','power','va','wow','
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./upload/' + a + '.mp3'), MessageType.audio, {contextInfo: { forwardingScore: 1000, isForwarded: true }, mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./upload/' + a + '.mp3'), MessageType.audio, {contextInfo: { forwardingScore: 10, isForwarded: true }, mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
 }
 });
     }
