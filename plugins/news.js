@@ -56,7 +56,7 @@ Asena.addCommand({pattern: 'news ?(.*)', fromMe: false, desc: Lang.NEWS_DESC}, a
 	}
 });
 
-Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+Asena.addCommand({pattern: 'fulleva ?(.*)', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (message.jid === '919562803423-1627735504@g.us') {
  
              return;
