@@ -59,12 +59,12 @@
         "Z_BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply pinkt to identify)",
             "required": false,
-            "value": "Amal"
+            "value": "PINKY"
         },
         "Z_DEP_NAME": {
             "description": "bot deployer name make it short  (for auto reply pinkt to identify)",
             "required": false,
-            "value": "Amal"
+            "value": "plk"
         },
         "Z_BOT_REPLY": {
             "description": "enter the repply message you want when deployer name is typed by users  (for auto reply pinkt to identify)",
