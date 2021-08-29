@@ -51,6 +51,26 @@
             "required": true,
             "value": "true"
         },
+        "Z_PINKY_AI": {
+            "description": "turn on chat back auto reply Amalser (use true to on and fale to off)",
+            "required": true,
+            "value": "true"
+        },
+        "Z_BOT_NAME": {
+            "description": "give a name you disire to give your bot (for auto reply pinkt to identify)",
+            "required": false,
+            "value": "Amal"
+        },
+        "Z_DEP_NAME": {
+            "description": "bot deployer name make it short  (for auto reply pinkt to identify)",
+            "required": false,
+            "value": "Amal"
+        },
+        "Z_BOT_REPLY": {
+            "description": "enter the repply message you want when deployer name is typed by users  (for auto reply pinkt to identify)",
+            "required": false,
+            "value": "i know him he is my creator"
+        },
         "OWNER_NAME": {
             "description": "reply for .owner ! give your details, Use => default, to change back.",
             "required": false,
