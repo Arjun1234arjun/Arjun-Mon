@@ -23,7 +23,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *bot setting video : https://youtu.be/RlSG4ZgPls0*
 
-*githublink : https://github.com/cyberchekuthan/Amalser_v1*
+*github link : https://github.com/cyberchekuthan/Amalser_v1*
 
 *audio commads : https://github.com/cyberchekuthan/Amalser_v1/tree/master/uploads*
 `}) 
